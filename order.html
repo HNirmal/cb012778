@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This will make the website responsive for different screen sizes-->
+        <link rel="stylesheet" href="website.css">
+    </head>
+   
+<body class="order-body">
+    <header id="mainHeader">
+        <!--Header Logo (Website Logo) -->
+        <a href="homepage.html"> <img src="Order Page/Website Logo.jpg" alt="Logo" id="logo"> </a>
+    
+        <!--Navigation Bar-->
+            <nav class="navbar">
+                 <div class="topnav" id="myTopnav">
+    
+                    <a href="homepage.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="diary.html">Dairy Products</a>
+                    <a href="vegetables.html">Vegetables</a>
+                    <a href="cosmetics.html">Cosmetics and Skincare </a>
+                    <a href="order.html" class="active">Order Page</a>
+                    <a href="regpage.html">Loyalty Registration</a>
+                    
+                </div>
+            </nav>
+    </header>
+
+    <!--order page heading-->
+    <br><br><br><br><br><br><br>
+    <h1><b>------------------------------------------------------------ ORDER PAGE ----------------------------------------------------------- </b></h1>
+    
+
+    <!-- Form of Order Page -->
+
+    <br><br><br>
+
+    <section>
+        <div class="order-form">   
+            <form class="order-form-body">
+                <h3 class="order-heading"><u>Order Details</u></h3>
+                <br>
+                    <h1 class="order-subheading"> Enter Product Name & Quantity: </h1> <textarea name="product-text" required class="textarea product-text" placeholder="Enter Names of Product & the Quantity (Cheese 100g * 2)"></textarea> <span class="star">*</span><br><br>
+                <br><hr>
+                <h3 class="order-heading"><u>Billing Details</u></h3>
+                <br>
+                    <h1 class="order-subheading">Name: </h1><input type="text" name="name" required class="name" placeholder="Enter Your Name"> <span class="star">*</span><br><br>      
+                    <h1 class="order-subheading">Phone number:</h1> <input type="tel" name="phoneno" minlength="10" maxlength="11" placeholder="Enter Phone Number" required class="phoneno2"><span class="star"> *</span><br><br>
+                    <h1 class="order-subheading">Email: </h1><input type="email" name="email" required class="email2" placeholder="Enter Your Email"> <span class="star">*</span><br><br>      
+                    <h1 class="order-subheading">Address: </h1><input type="text" name="address" required class="address" placeholder="Enter Your Address"> <span class="star">*</span><br><br>      
+                    <h1 class="order-subheading">City:</h1> <input type="text" name="city" required class="city" placeholder="Enter Your City"> <span class="star">*</span><br><br>      
+                    <h1 class="order-subheading">Zip Code: </h1><input type="text" name="zip" required class="zipcode" placeholder="Enter Your City Zipcode"> <span class="star">*</span><br>        
+                <br><hr>
+                <h3 class="order-heading"><u>Payment Details</u></h3>
+                <br>
+                    <h1 class="order-subheading">Payment Method:</h1> <select  name="payment-method" class="payment">
+                        <option value="credit-card">Visa</option>
+                        <option value="paypal">Master</option></select><br><br>
+                    <h1 class="order-subheading"> Card Number: </h1><input type="text" name="card-number" required class="cardno" placeholder="Enter Your Card Number"> <span class="star">*</span><br><br>      
+                    <h1 class="order-subheading"> Expiration Date:</h1> <input type="month" name="expiration-date" minlength="16" maxlength="16" required class="exdate" placeholder="MM / YY"> <span class="star">*</span><br><br>      
+                    <h1 class="order-subheading"> CVV: </h1><input type="text" name="cvv" required class="cvv" placeholder="Enter Your CVV"> <span class="star">*</span>
+                <br><br><br><br>
+
+                <!-- Order Button -->
+                    <button type="submit" class="order-btn">Order Now !</button> 
+                    <br><br>
+                    <button type="submit" class="order-btn"> Add to Cart </button> 
+                <br><br><br><br>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+<br><br><br><br><br>
+
+<footer>
+    <div class="footer-content">\
+        <br>
+        <h3><b> K.S.P SUPER </b></h3> 
+        <p>
+            "Our Supermarket discovers from farm-fresh produce to pantry staples and gourmet treats, we're here to make your shopping experience convenient, enjoyable, and full of flavor."
+        </p>
+
+    </div>
+    <div class="footer-bottom">
+        <p><center>Copyright &copy; 2024 All rights reserved! </center> </p>
+    </div>
+
+</footer>
